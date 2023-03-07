@@ -1,0 +1,703 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+   width: 300px;
+   height: 400px;
+   background-color: hsl(241, 77%, 57%);
+   border-radius: 20px;
+   box-shadow: 2px 10px 15px rgba(187, 215, 215, 0.701);
+   position: relative;
+   left: 20px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.card1 h2, p {
+    text-align: center;
+    color: white;
+}
+
+.card1 h2 {
+    font-size: 0.8rem;
+    color: white;
+   margin-top: 40px;
+   font-size: 0.9rem;
+}
+
+.card1 h1 {
+ padding-top: 43px;
+ text-align: center;
+ color: white;
+ font-size: 2.5rem;
+}
+
+.card1 p {
+    font-size: 0.6rem;
+    color: lightgray;
+}
+
+.card1-p2 {
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.card2 {
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 2px 10px 15px rgba(187, 215, 215, 0.701);
+ }
+
+ .card2 h2 {
+    margin:40px 0 0 45px;
+    font-size: 0.8rem;
+ }
+
+ .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsl(241, 77%, 57%) );
+    position: relative;
+    left: 25%;
+    top: 5%;
+    transform: translate(-25% -25%);
+ }
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 13%;
+    top: 5%;
+    border-radius: 10px;
+}
+
+.rows img {
+    width: 5%;
+    margin-left: 20px;
+}
+.card2-p1 {
+    padding: 10px;
+    font-weight: 700;
+}
+.card2-p2 {
+    margin-left: 50px;
+    padding: 10px;
+    font-weight: 700;
+
+}
+
+#row1 {
+    background-color: hsl(0, 33%, 94%);
+   
+}
+#row1 p {
+    color:  hsl(0, 100%, 67%);
+}
+
+#row2 {
+    background-color: hsl(39, 50%, 95%);
+}
+#row2 p {
+    color:  hsl(39, 100%, 56%);
+}
+
+#row3 {
+    background-color: hsl(164, 58%, 94%);
+}
+#row3 p {
+    color:  hsl(166, 100%, 37%);
+    padding-left: 16px;
+}
+
+#row4 {
+    background-color: hsl(251, 57%, 93%);
+}
+#row4 p {
+    color:  hsl(252, 100%, 67%);
+    justify-content: flex-end;
+    padding-left: 16px;
+}
+
+button {
+    position: relative;
+    top: 8%;
+    left: 13%;
+    width: 80%;
+    padding: 10px;
+    border-radius: 200px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+span {
+    opacity: 0.5;
+    color: lightgray;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+
+
+@media  (max-width: 768px) {
+  
+    section {
+       width: 100%;
+        background-color: #1b1c1e;
+        display: inline-block;
+    }
+
+    .card1 {
+        width: 300px;
+        height: 270px;
+        background-color: hsl(241, 77%, 57%);
+        border-radius: 0 0 20px 20px;
+        box-shadow: none;
+       position: relative;
+        top: -3%;
+        left: 29%;
+        z-index: 1;
+     }
+
+     .card2 {
+        width: 300px;
+        height: 380px;
+        background-color: white;
+        border-radius: 0%;
+        box-shadow: none;
+        margin: auto;
+        position: relative;
+        top: -12%;
+     }
+     .circle {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        left: 30%;
+        top: 8%;
+        transform: translate(-25% -25%);
+     }
+    
+    .result {
+      padding-top: 20px;
+      opacity: 0.7;
+    }
+    
+    .card1 h1 {
+     padding-top: 30px;
+    }
+    
+    .card1 p {
+        font-size: 0.6rem;
+        color: lightgray;
+    }
+    .great {
+        padding-top: 0;
+    }
+  
+    .card1-p2 {
+       line-height: 1.2;
+       padding: 5px;
+    }
+    .card2 h2 {
+     padding-top: 40px;
+     margin-left: 24px;
+     }
+    
+     .rows {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        width: 250px;
+        margin-bottom: 15px;
+        position: relative;
+        left: 8%;
+        top: 5%;
+        border-radius: 10px;
+    }
+    button {
+        position: relative;
+        top: 8%;
+        left: 8%;
+        width: 84%;
+        padding: 15px;
+        
+        
+    }
+}
+
+
+@media  (max-width: 600px) {
+    
+    section {
+        width: 100%;
+         background-color: #1b1c1e;
+         display: inline-block;
+     }
+ 
+     .card1 {
+         width: 300px;
+         height: 270px;
+         background-color: hsl(241, 77%, 57%);
+         border-radius: 0 0 20px 20px;
+         box-shadow: none;
+        position: relative;
+         top: -3%;
+         left: 25%;
+         z-index: 1;
+      }
+ 
+      .card2 {
+         width: 300px;
+         height: 380px;
+         background-color: white;
+         border-radius: 0%;
+         box-shadow: none;
+         margin: auto;
+         position: relative;
+         top: -12%;
+      }
+      .circle {
+         width: 120px;
+         height: 120px;
+         position: relative;
+         left: 30%;
+         top: 8%;
+         transform: translate(-25% -25%);
+      }
+     
+     .result {
+       padding-top: 20px;
+       opacity: 0.7;
+     }
+     
+     .card1 h1 {
+      padding-top: 30px;
+     }
+     
+     .card1 p {
+         font-size: 0.6rem;
+         color: lightgray;
+     }
+     .great {
+         padding-top: 0;
+     }
+   
+     .card1-p2 {
+        line-height: 1.2;
+        padding: 5px;
+     }
+     .card2 h2 {
+      padding-top: 40px;
+      margin-left: 24px;
+      }
+     
+      .rows {
+         display: flex;
+         flex-direction: row;
+         height: 40px;
+         width: 250px;
+         margin-bottom: 15px;
+         position: relative;
+         left: 8%;
+         top: 5%;
+         border-radius: 10px;
+     }
+     button {
+         position: relative;
+         top: 8%;
+         left: 8%;
+         width: 84%;
+         padding: 15px;
+         
+         
+     }
+
+
+
+}
+
+@media  (max-width: 480px) {
+    section {
+        width: 100%;
+         background-color: #1b1c1e;
+         display: inline-block;
+     }
+ 
+     .card1 {
+         width: 300px;
+         height: 270px;
+         background-color: hsl(241, 77%, 57%);
+         border-radius: 0 0 20px 20px;
+         box-shadow: none;
+        position: relative;
+         top: -3%;
+         left: 18.9%;
+         z-index: 1;
+      }
+ 
+      .card2 {
+         width: 300px;
+         height: 380px;
+         background-color: white;
+         border-radius: 0%;
+         box-shadow: none;
+         margin: auto;
+         position: relative;
+         top: -12%;
+      }
+      .circle {
+         width: 120px;
+         height: 120px;
+         position: relative;
+         left: 30%;
+         top: 8%;
+         transform: translate(-25% -25%);
+      }
+     
+     .result {
+       padding-top: 20px;
+       opacity: 0.7;
+     }
+     
+     .card1 h1 {
+      padding-top: 30px;
+     }
+     
+     .card1 p {
+         font-size: 0.6rem;
+         color: lightgray;
+     }
+     .great {
+         padding-top: 0;
+     }
+   
+     .card1-p2 {
+        line-height: 1.2;
+        padding: 5px;
+     }
+     .card2 h2 {
+      padding-top: 40px;
+      margin-left: 24px;
+      }
+     
+      .rows {
+         display: flex;
+         flex-direction: row;
+         height: 40px;
+         width: 250px;
+         margin-bottom: 15px;
+         position: relative;
+         left: 8%;
+         top: 5%;
+         border-radius: 10px;
+     }
+     button {
+         position: relative;
+         top: 8%;
+         left: 8%;
+         width: 84%;
+         padding: 15px;
+         
+         
+     }
+}
+
+@media  (max-width: 375px) {
+    section {
+        width: 100%;
+        height: 200vh;
+         background-color: #1b1c1e;
+         display: inline-block;
+     }
+ 
+     .card1 {
+         width: 250px;
+         height: 270px;
+         background-color: hsl(241, 77%, 57%);
+         border-radius: 0 0 20px 20px;
+         box-shadow: none;
+        position: relative;
+         top: -3%;
+         left: 5%;
+         z-index: 1;
+      }
+ 
+      .card2 {
+         width: 250px;
+         height: 400px;
+      }
+      .circle {
+         width: 120px;
+         height: 120px;
+         position: relative;
+         left: 28%;
+         top: 8%;
+         transform: translate(-25% -25%);
+      }
+     
+     .result {
+       padding-top: 20px;
+       opacity: 0.7;
+     }
+     
+     .card1 h1 {
+      padding-top: 30px;
+     }
+     
+     .card1 p {
+         font-size: 0.6rem;
+         color: lightgray;
+     }
+     .great {
+         padding-top: 0;
+     }
+   
+     .card1-p2 {
+        line-height: 1.2;
+        padding: 5px;
+     }
+     .card2 h2 {
+      padding-top: 70px;
+      margin-left: 24px;
+      }
+     
+    .card2-p1 {
+        font-size: 10px;
+    }
+    .card2-p2 {
+        font-size: 10px;
+    }
+
+      .rows {
+         width: 210px;
+         margin-bottom: 15px;
+         position: relative;
+         left: 8%;
+         top: 5%;
+         border-radius: 10px;
+     }
+     button {
+         position: relative;
+         top: 8%;
+         left: 8%;
+         width: 84%;
+         padding: 12px;
+         
+         
+     }
+}
+
+
+
+@media  (max-width: 360px) {
+    section {
+        width: 100%;
+        height: 200vh;
+         background-color: #1b1c1e;
+         display: inline-block;
+     }
+ 
+     .card1 {
+         width: 250px;
+         height: 270px;
+         background-color: hsl(241, 77%, 57%);
+         border-radius: 0 0 20px 20px;
+         box-shadow: none;
+        position: relative;
+         top: -3%;
+         left: 15.2%;
+         z-index: 1;
+      }
+ 
+      .card2 {
+         width: 250px;
+         height: 400px;
+      }
+      .circle {
+         width: 120px;
+         height: 120px;
+         position: relative;
+         left: 28%;
+         top: 8%;
+         transform: translate(-25% -25%);
+      }
+     
+     .result {
+       padding-top: 20px;
+       opacity: 0.7;
+     }
+     
+     .card1 h1 {
+      padding-top: 30px;
+     }
+     
+     .card1 p {
+         font-size: 0.6rem;
+         color: lightgray;
+     }
+     .great {
+         padding-top: 0;
+     }
+   
+     .card1-p2 {
+        line-height: 1.2;
+        padding: 5px;
+     }
+     .card2 h2 {
+      padding-top: 70px;
+      margin-left: 24px;
+      }
+     
+    .card2-p1 {
+        font-size: 10px;
+    }
+    .card2-p2 {
+        font-size: 10px;
+    }
+
+      .rows {
+         width: 210px;
+         margin-bottom: 15px;
+         position: relative;
+         left: 8%;
+         top: 5%;
+         border-radius: 10px;
+     }
+     button {
+         position: relative;
+         top: 8%;
+         left: 8%;
+         width: 84%;
+         padding: 12px;
+         
+         
+     }
+}
+
+
+
+@media  (max-width: 320px) {
+    section {
+        width: 100%;
+        height: 200vh;
+         background-color: #1b1c1e;
+         display: inline-block;
+     }
+ 
+     .card1 {
+         width: 250px;
+         height: 270px;
+         background-color: hsl(241, 77%, 57%);
+         border-radius: 0 0 20px 20px;
+         box-shadow: none;
+        position: relative;
+         top: -3%;
+         left: 10.9%;
+         z-index: 1;
+      }
+ 
+      .card2 {
+         width: 250px;
+         height: 400px;
+      }
+      .circle {
+         width: 120px;
+         height: 120px;
+         position: relative;
+         left: 28%;
+         top: 8%;
+         transform: translate(-25% -25%);
+      }
+     
+     .result {
+       padding-top: 20px;
+       opacity: 0.7;
+     }
+     
+     .card1 h1 {
+      padding-top: 30px;
+     }
+     
+     .card1 p {
+         font-size: 0.6rem;
+         color: lightgray;
+     }
+     .great {
+         padding-top: 0;
+     }
+   
+     .card1-p2 {
+        line-height: 1.2;
+        padding: 5px;
+     }
+     .card2 h2 {
+      padding-top: 70px;
+      margin-left: 24px;
+      }
+     
+    .card2-p1 {
+        font-size: 10px;
+    }
+    .card2-p2 {
+        font-size: 10px;
+    }
+
+      .rows {
+         width: 210px;
+         margin-bottom: 15px;
+         position: relative;
+         left: 8%;
+         top: 5%;
+         border-radius: 10px;
+     }
+     button {
+         position: relative;
+         top: 8%;
+         left: 8%;
+         width: 84%;
+         padding: 12px;
+         
+         
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
