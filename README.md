@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Chimatara/result-summary-component)
+- Live Site URL: [Add live site URL here](https://tara-result-summary-component.netlify.app/)
 
 
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Result Summary Component](https://chimatara-code-scanner.netlify.app/)
+- Website - [Result Summary Component](https://tara-result-summary-component.netlify.app/)
 - Frontend Mentor - [@Chimatara](https://www.frontendmentor.io/profile/Chimatara)
 - Twitter - [@taras_collectn](https://twitter.com/taras_collectn)
 
